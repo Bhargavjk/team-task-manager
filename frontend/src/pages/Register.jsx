@@ -14,7 +14,7 @@ function Register() {
 
   const registerUser = async () => {
     try {
-      await axios.post("http://localhost:5000/api/auth/signup", form);
+      await axios.post("https://team-task-manager-production-485e.up.railway.app", form);
       alert("Registered successfully");
       navigate("/");
     } catch (err) {

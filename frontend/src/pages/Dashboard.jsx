@@ -11,7 +11,7 @@ function Dashboard() {
 
   const fetchProjects = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/projects", {
+      const res = await axios.get("https://team-task-manager-production-485e.up.railway.app", {
         headers: {
           Authorization: `Bearer ${token}`
         }
